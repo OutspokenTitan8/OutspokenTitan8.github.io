@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>F1 Qualifying Results</title>
+</head>
+<body>
+  <h2>Last F1 Qualifying Results</h2>
+  <ul id="qualiResults"></ul>
+
+  <script>
+    fetch('https://ergast.com/api/f1/current/last/qualifying.json')
+      .then(response => response.json())
+      .then(data => {
+        const race = data.MRData.RaceTable.Races[0];
+        const results = race.QualifyingResults;
+        const list = document.getElementById('qualiResults');
+
+        results.forEach(driver => {
+          const item = document.createElement('li');
+          const q3 = driver.Q3 || driver.Q2 || driver.Q1 || "N/A";
+          item.textContent = `P${driver.position}: ${driver.Driver.givenName} ${driver.Driver.familyName} – Best: ${q3}`;
+          list.appendChild(item);
+        });
+      });
+  </script>
+</body>
+</html>
