@@ -1,0 +1,370 @@
+{
+  "season": 2025,
+  "races": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "circuit": "Albert Park Circuit",
+      "racedate": "2025-03-16",
+      "sessions": {
+        "FP1": "00:30 BST",
+        "FP2": "04:00 BST",
+        "FP3": "01:30 BST",
+        "Qualifying": "05:00 BST",
+        "Race": "04:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 2,
+      "name": "Chinese Grand Prix",
+      "circuit": "Shanghai International Circuit",
+      "racedate": "2025-03-23",
+      "sessions": {
+        "FP1": "07:30 BST",
+        "FP2": "11:00 BST",
+        "FP3": "08:30 BST",
+        "Qualifying": "12:00 BST",
+        "Race": "07:00 BST"
+      },
+      "sprint": true,
+      "Sprint": "12:30 BST",
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 3,
+      "name": "Japanese Grand Prix",
+      "circuit": "Suzuka Circuit",
+      "racedate": "2025-04-06",
+      "sessions": {
+        "FP1": "03:30 BST",
+        "FP2": "07:00 BST",
+        "FP3": "03:30 BST",
+        "Qualifying": "07:00 BST",
+        "Race": "06:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 4,
+      "name": "Bahrain Grand Prix",
+      "circuit": "Bahrain International Circuit",
+      "racedate": "2025-04-13",
+      "sessions": {
+        "FP1": "13:30 BST",
+        "FP2": "17:00 BST",
+        "FP3": "14:30 BST",
+        "Qualifying": "18:00 BST",
+        "Race": "15:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 5,
+      "name": "Saudi Arabian Grand Prix",
+      "circuit": "Jeddah Corniche Circuit",
+      "racedate": "2025-04-20",
+      "sessions": {
+        "FP1": "15:30 BST",
+        "FP2": "19:00 BST",
+        "FP3": "16:30 BST",
+        "Qualifying": "20:00 BST",
+        "Race": "17:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 6,
+      "name": "Miami Grand Prix",
+      "circuit": "Miami International Autodrome",
+      "racedate": "2025-05-04",
+      "sessions": {
+        "FP1": "20:30 BST",
+        "FP2": "00:00 BST",
+        "FP3": "21:30 BST",
+        "Qualifying": "01:00 BST",
+        "Race": "21:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 7,
+      "name": "Emilia Romagna Grand Prix",
+      "circuit": "Imola Circuit",
+      "racedate": "2025-05-18",
+      "sessions": {
+        "FP1": "13:30 BST",
+        "FP2": "17:00 BST",
+        "FP3": "14:30 BST",
+        "Qualifying": "18:00 BST",
+        "Race": "15:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 8,
+      "name": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "racedate": "2025-05-25",
+      "sessions": {
+        "FP1": "13:30 BST",
+        "FP2": "17:00 BST",
+        "FP3": "14:30 BST",
+        "Qualifying": "18:00 BST",
+        "Race": "15:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 9,
+      "name": "Spanish Grand Prix",
+      "circuit": "Circuit de Barcelona-Catalunya",
+      "racedate": "2025-06-01",
+      "sessions": {
+        "FP1": "11:30 BST",
+        "FP2": "15:00 BST",
+        "FP3": "12:30 BST",
+        "Qualifying": "16:00 BST",
+        "Race": "14:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 10,
+      "name": "Canadian Grand Prix",
+      "circuit": "Circuit Gilles Villeneuve",
+      "racedate": "2025-06-15",
+      "sessions": {
+        "FP1": "17:30 BST",
+        "FP2": "21:00 BST",
+        "FP3": "18:30 BST",
+        "Qualifying": "22:00 BST",
+        "Race": "19:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 11,
+      "name": "Austrian Grand Prix",
+      "circuit": "Red Bull Ring",
+      "racedate": "2025-06-29",
+      "sessions": {
+        "FP1": "11:30 BST",
+        "FP2": "15:00 BST",
+        "FP3": "12:30 BST",
+        "Qualifying": "16:00 BST",
+        "Race": "14:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 12,
+      "name": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "racedate": "2025-07-06",
+      "sessions": {
+        "FP1": "12:30 BST",
+        "FP2": "16:00 BST",
+        "FP3": "11:30 BST",
+        "Qualifying": "15:00 BST",
+        "Race": "15:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 13,
+      "name": "Belgian Grand Prix",
+      "circuit": "Spa-Francorchamps",
+      "racedate": "2025-07-27",
+      "sessions": {
+        "FP1": "10:30 BST",
+        "FP2": "14:00 BST",
+        "FP3": "11:30 BST",
+        "Qualifying": "15:00 BST",
+        "Sprint": "14:00 BST",
+        "Race": "14:00 BST"
+      },
+      "sprint": true,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 14,
+      "name": "Hungarian Grand Prix",
+      "circuit": "Hungaroring",
+      "racedate": "2025-08-03",
+      "sessions": {
+        "FP1": "11:30 BST",
+        "FP2": "15:00 BST",
+        "FP3": "12:30 BST",
+        "Qualifying": "16:00 BST",
+        "Race": "14:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 15,
+      "name": "Dutch Grand Prix",
+      "circuit": "Circuit Zandvoort",
+      "racedate": "2025-08-31",
+      "sessions": {
+        "FP1": "10:30 BST",
+        "FP2": "14:00 BST",
+        "FP3": "11:30 BST",
+        "Qualifying": "15:00 BST",
+        "Race": "14:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 16,
+      "name": "Italian Grand Prix",
+      "circuit": "Monza Circuit",
+      "racedate": "2025-09-07",
+      "sessions": {
+        "FP1": "11:30 BST",
+        "FP2": "15:00 BST",
+        "FP3": "12:30 BST",
+        "Qualifying": "16:00 BST",
+        "Race": "14:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 17,
+      "name": "Azerbaijan Grand Prix",
+      "circuit": "Baku City Circuit",
+      "racedate": "2025-09-21",
+      "sessions": {
+        "FP1": "09:30 BST",
+        "FP2": "13:00 BST",
+        "FP3": "10:30 BST",
+        "Qualifying": "13:00 BST",
+        "Race": "12:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 18,
+      "name": "Singapore Grand Prix",
+      "circuit": "Marina Bay Street Circuit",
+      "racedate": "2025-10-05",
+      "sessions": {
+        "FP1": "09:30 BST",
+        "FP2": "13:00 BST",
+        "FP3": "10:30 BST",
+        "Qualifying": "13:00 BST",
+        "Race": "12:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 19,
+      "name": "United States Grand Prix",
+      "circuit": "Circuit of the Americas",
+      "racedate": "2025-10-19",
+      "sessions": {
+        "FP1": "18:30 BST",
+        "FP2": "22:00 BST",
+        "FP3": "19:30 BST",
+        "Qualifying": "23:00 BST",
+        "Sprint": "20:00 BST",
+        "Race": "20:00 BST"
+      },
+      "sprint": true,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 20,
+      "name": "Mexican Grand Prix",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "racedate": "2025-10-26",
+      "sessions": {
+        "FP1": "19:30 BST",
+        "FP2": "23:00 BST",
+        "FP3": "20:30 BST",
+        "Qualifying": "22:00 BST",
+        "Race": "20:00 BST"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 21,
+      "name": "Brazilian Grand Prix",
+      "circuit": "Interlagos Circuit",
+      "racedate": "2025-11-09",
+      "sessions": {
+        "FP1": "14:30 BST",
+        "FP2": "18:00 BST",
+        "FP3": "15:00 BST",
+        "Qualifying": "17:00 BST",
+        "Sprint": "16:00 BST",
+        "Race": "17:00 BST"
+      },
+      "sprint": true,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 22,
+      "name": "Las Vegas Grand Prix",
+      "circuit": "Las Vegas Street Circuit",
+      "racedate": "2025-11-22",
+      "sessions": {
+        "FP1": "00:30 GMT",
+        "FP2": "04:00 GMT",
+        "FP3": "00:30 GMT",
+        "Qualifying": "04:00 GMT",
+        "Race": "04:00 GMT"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 23,
+      "name": "Qatar Grand Prix",
+      "circuit": "Losail International Circuit",
+      "racedate": "2025-11-30",
+      "sessions": {
+        "FP1": "12:30 GMT",
+        "FP2": "16:00 GMT",
+        "FP3": "13:30 GMT",
+        "Qualifying": "17:00 GMT",
+        "Sprint": "16:00 GMT",
+        "Race": "16:00 GMT"
+      },
+      "sprint": true,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    },
+    {
+      "round": 24,
+      "name": "Abu Dhabi Grand Prix",
+      "circuit": "Yas Marina Circuit",
+      "racedate": "2025-12-07",
+      "sessions": {
+        "FP1": "09:30 GMT",
+        "FP2": "13:00 GMT",
+        "FP3": "10:30 GMT",
+        "Qualifying": "13:00 GMT",
+        "Race": "13:00 GMT"
+      },
+      "sprint": false,
+      "track_image_url": "DROPBOX_IMAGE_LINK"
+    }
+  ]
+}
