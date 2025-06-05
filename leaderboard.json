@@ -1,30 +1,30 @@
 [
   {
-    "PlayerName": "Mitch",
-    "Score": 93.0
+    "PlayerName": "Rob",
+    "Score": 88
   },
   {
-    "PlayerName": "Rob",
-    "Score": 86.0
+    "PlayerName": "Mitch",
+    "Score": 87.5
   },
   {
     "PlayerName": "Zine",
-    "Score": 84.0
+    "Score": 83
   },
   {
     "PlayerName": "Toby",
-    "Score": 74.0
+    "Score": 75.5
   },
   {
     "PlayerName": "Weave",
-    "Score": 60.0
+    "Score": 58
   },
   {
     "PlayerName": "Matt",
-    "Score": 56.0
+    "Score": 50
   },
   {
     "PlayerName": "George",
-    "Score": 12.0
+    "Score": 13
   }
 ]
