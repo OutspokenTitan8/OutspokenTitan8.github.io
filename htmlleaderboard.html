@@ -20,10 +20,11 @@
         th, td {
             border: 1px solid #ddd;
             text-align: left;
-            padding: 8px;
+            padding: 4px 6px; /* reduced padding for tighter columns */
+            white-space: nowrap; /* prevent line breaks */
         }
         th {
-            background-color: #ddd; /* Changed from #222 to light grey */
+            background-color: #ddd; /* light grey header */
             color: black;
             text-align: center;
             font-weight: bold;
@@ -55,7 +56,7 @@
 </head>
 <body>
 <table>
-<tr><th>Position</th><th>PlayerName</th><th>Score</th></tr>
+<tr><th>Position</th><th>Name</th><th>Score</th></tr>
 <tr class="gold"><td class='pos'>1</td><td>Rob</td><td>88</td></tr>
 <tr class="silver"><td class='pos'>2</td><td>Mitch</td><td>87.5</td></tr>
 <tr class="bronze"><td class='pos'>3</td><td>Zine</td><td>83</td></tr>
