@@ -1,70 +1,69 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Leaderboard</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                padding: 20px;
-                background-color: #f9f9f9;
-            }
-            table {
-                border-collapse: collapse;
-                width: 100%;
-                max-width: 800px;
-                margin: auto;
-                background-color: #fff;
-                box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            }
-            th, td {
-                border: 1px solid #ddd;
-                text-align: left;
-                padding: 12px 6px; /* increased top/bottom padding for taller rows */
-                line-height: 1.4;
-                white-space: nowrap; /* prevent line breaks */
-            }
-            th {
-                background-color: #ddd; /* light grey header */
-                color: black;
-                text-align: center;
-                font-weight: bold;
-            }
-            tr:nth-child(even) {
-                background-color: #f9f9f9;
-            }
-            tr:hover {
-                background-color: #f1f1f1;
-            }
-            /* Position column */
-            td.pos {
-                text-align: center;
-                font-weight: bold;
-                width: 50px;
-            }
-            /* Top 3 highlight colors */
-            tr.gold {
-                background-color: #ffd70080; /* gold */
-                font-weight: bold;
-            }
-            tr.silver {
-                background-color: #c0c0c080; /* silver */
-            }
-            tr.bronze {
-                background-color: #cd7f3280; /* bronze */
-            }
-        </style>
-    </head>
-    <body>
-    <table>
-<tr><th>Position</th><th>Name</th><th>Score</th></tr>
-<tr class="gold"><td class='pos'>1</td><td>Rob</td><td>88</td></tr>
-<tr class="silver"><td class='pos'>2</td><td>Mitch</td><td>87.5</td></tr>
-<tr class="bronze"><td class='pos'>3</td><td>Zine</td><td>83</td></tr>
-<tr ><td class='pos'>4</td><td>Toby</td><td>75.5</td></tr>
-<tr ><td class='pos'>5</td><td>Weave</td><td>58</td></tr>
-<tr ><td class='pos'>6</td><td>Matt</td><td>50</td></tr>
-<tr ><td class='pos'>7</td><td>George</td><td>13</td></tr>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Leaderboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 6px 8px;
+            white-space: nowrap;
+        }
+        th {
+            background-color: #ddd;
+            color: black;
+            text-align: center;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        /* Position column */
+        td.pos {
+            text-align: center;
+            font-weight: bold;
+            width: 50px;
+        }
+        /* Top 3 highlight colors */
+        tr.gold {
+            background-color: #ffd70080; /* gold */
+            font-weight: bold;
+        }
+        tr.silver {
+            background-color: #c0c0c080; /* silver */
+        }
+        tr.bronze {
+            background-color: #cd7f3280; /* bronze */
+        }
+    </style>
+</head>
+<body>
+<table>
+<tr><th>Name</th><th>Score</th></tr>
+<tr class="gold"><td>Rob</td><td>88</td></tr>
+<tr class="silver"><td>Mitch</td><td>87.5</td></tr>
+<tr class="bronze"><td>Zine</td><td>83</td></tr>
+<tr ><td>Toby</td><td>75.5</td></tr>
+<tr ><td>Weave</td><td>58</td></tr>
+<tr ><td>Matt</td><td>50</td></tr>
+<tr ><td>George</td><td>13</td></tr>
 </table>
-    </body>
-    </html>
+</body>
+</html>

@@ -12,8 +12,19 @@
       border: none;
     }
   </style>
+  <script>
+    // Reload iframe with updated timestamp on each wrapper refresh
+    function reloadIframe() {
+      var iframe = document.getElementById('leaderboardFrame');
+      var src = iframe.src.split('?')[0];
+      iframe.src = src + '?t=' + new Date().getTime();
+    }
+    window.onload = function() {
+      setTimeout(reloadIframe, 100);
+    };
+  </script>
 </head>
 <body>
-  <iframe src="htmlleaderboard.html" width="100%" height="100%" frameborder="0"></iframe>
+  <iframe id="leaderboardFrame" src="htmlleaderboard.html?t=1749139132" width="100%" height="100%" frameborder="0"></iframe>
 </body>
 </html>
