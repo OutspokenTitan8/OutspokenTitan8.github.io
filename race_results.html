@@ -1,65 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Spanish Grand Prix – Race Results</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background: #ffffff;
-            color: #222;
+<meta charset="UTF-8" />
+<title>Spanish Grand Prix – Race Results</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        margin: 0;
+        background: #ffffff;
+        color: #222;
+    }
+    h1 {
+        text-align: center;
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 500px;
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 6px 10px;
+        text-align: center;
+        font-size: 0.9em;
+        white-space: nowrap;
+    }
+    th {
+        background-color: #222;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    @media (max-width: 480px) {
+        th, td {
+            padding: 5px 6px;
+            font-size: 0.75em;
         }
         h1 {
-            text-align: center;
+            font-size: 1em;
         }
-        .table-container {
-            overflow-x: auto;
-            margin: 0 auto;
-            max-width: 95%;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 5px;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            min-width: 600px;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px 12px;
-            text-align: center;
-            font-size: 14px;
-        }
-        th {
-            background-color: #222;
-            color: white;
-            position: sticky;
-            top: 0;
-            z-index: 2;
-        }
-        tbody tr:hover {
-            background-color: #f0f0f0;
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
     <h1>Spanish Grand Prix – Race Results</h1>
     <div class="table-container">
-    <table>
-        <thead>
-            <tr>
-                <th style="border-left: 5px solid #222;">Pos</th>
-                <th>Driver</th>
-                <th>Team</th>
-                <th>Fastest Lap</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-    <tr style="border-left: 5px solid #FF8700;">
+        <table>
+            <thead>
+                <tr>
+                    <th style="border-left: 5px solid #222;">Pos</th>
+                    <th>Driver</th>
+                    <th>Team</th>
+                    <th>Fastest Lap</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+    <tr style="border-left: 5px solid #FF8700; background-color: #ffffff;">
         <td>1</td>
         <td style="color: #FF8700;">Oscar Piastri</td>
         <td style="color: #FF8700;">McLaren</td>
@@ -67,7 +74,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #FF8700;">
+    <tr style="border-left: 5px solid #FF8700; background-color: #ffffff;">
         <td>2</td>
         <td style="color: #FF8700;">Lando Norris</td>
         <td style="color: #FF8700;">McLaren</td>
@@ -75,7 +82,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #E8002D;">
+    <tr style="border-left: 5px solid #E8002D; background-color: #ffffff;">
         <td>3</td>
         <td style="color: #E8002D;">Charles Leclerc</td>
         <td style="color: #E8002D;">Ferrari</td>
@@ -83,7 +90,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #00D2BE;">
+    <tr style="border-left: 5px solid #00D2BE; background-color: #ffffff;">
         <td>4</td>
         <td style="color: #00D2BE;">George Russell</td>
         <td style="color: #00D2BE;">Mercedes</td>
@@ -91,7 +98,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #AAAAAA;">
+    <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
         <td>5</td>
         <td style="color: #AAAAAA;">Nico Hulkenberg</td>
         <td style="color: #AAAAAA;">Kick Sauber</td>
@@ -99,7 +106,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #E8002D;">
+    <tr style="border-left: 5px solid #E8002D; background-color: #ffffff;">
         <td>6</td>
         <td style="color: #E8002D;">Lewis Hamilton</td>
         <td style="color: #E8002D;">Ferrari</td>
@@ -107,7 +114,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #AAAAAA;">
+    <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
         <td>7</td>
         <td style="color: #AAAAAA;">Isack Hadjar</td>
         <td style="color: #AAAAAA;">Racing Bulls</td>
@@ -115,7 +122,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #AAAAAA;">
+    <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
         <td>8</td>
         <td style="color: #AAAAAA;">Pierre Gasly</td>
         <td style="color: #AAAAAA;">Alpine</td>
@@ -123,7 +130,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #229971;">
+    <tr style="border-left: 5px solid #229971; background-color: #ffffff;">
         <td>9</td>
         <td style="color: #229971;">Fernando Alonso</td>
         <td style="color: #229971;">Aston Martin</td>
@@ -131,7 +138,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #1E5BC6;">
+    <tr style="border-left: 5px solid #1E5BC6; background-color: #ffffff;">
         <td>10</td>
         <td style="color: #1E5BC6;">Max Verstappen</td>
         <td style="color: #1E5BC6;">Red Bull Racing</td>
@@ -139,7 +146,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #AAAAAA;">
+    <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
         <td>11</td>
         <td style="color: #AAAAAA;">Liam Lawson</td>
         <td style="color: #AAAAAA;">Racing Bulls</td>
@@ -147,7 +154,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #AAAAAA;">
+    <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
         <td>12</td>
         <td style="color: #AAAAAA;">Gabriel Bortoleto</td>
         <td style="color: #AAAAAA;">Kick Sauber</td>
@@ -155,7 +162,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #1E5BC6;">
+    <tr style="border-left: 5px solid #1E5BC6; background-color: #ffffff;">
         <td>13</td>
         <td style="color: #1E5BC6;">Yuki Tsunoda</td>
         <td style="color: #1E5BC6;">Red Bull Racing</td>
@@ -163,7 +170,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #37BEDD;">
+    <tr style="border-left: 5px solid #37BEDD; background-color: #ffffff;">
         <td>14</td>
         <td style="color: #37BEDD;">Carlos Sainz</td>
         <td style="color: #37BEDD;">Williams</td>
@@ -171,7 +178,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #AAAAAA;">
+    <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
         <td>15</td>
         <td style="color: #AAAAAA;">Franco Colapinto</td>
         <td style="color: #AAAAAA;">Alpine</td>
@@ -179,7 +186,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #B6BABD;">
+    <tr style="border-left: 5px solid #B6BABD; background-color: #ffffff;">
         <td>16</td>
         <td style="color: #B6BABD;">Esteban Ocon</td>
         <td style="color: #B6BABD;">Haas F1 Team</td>
@@ -187,7 +194,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #B6BABD;">
+    <tr style="border-left: 5px solid #B6BABD; background-color: #ffffff;">
         <td>17</td>
         <td style="color: #B6BABD;">Oliver Bearman</td>
         <td style="color: #B6BABD;">Haas F1 Team</td>
@@ -195,7 +202,7 @@
         <td>Finished</td>
     </tr>
     
-    <tr style="border-left: 5px solid #00D2BE;">
+    <tr style="border-left: 5px solid #00D2BE; background-color: #ffffff;">
         <td>18</td>
         <td style="color: #00D2BE;">Kimi Antonelli</td>
         <td style="color: #00D2BE;">Mercedes</td>
@@ -203,7 +210,7 @@
         <td>Retired</td>
     </tr>
     
-    <tr style="border-left: 5px solid #37BEDD;">
+    <tr style="border-left: 5px solid #37BEDD; background-color: #ffffff;">
         <td>19</td>
         <td style="color: #37BEDD;">Alexander Albon</td>
         <td style="color: #37BEDD;">Williams</td>
@@ -211,8 +218,8 @@
         <td>Retired</td>
     </tr>
     
-        </tbody>
-    </table>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
