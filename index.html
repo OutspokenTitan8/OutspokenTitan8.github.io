@@ -3,53 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>F1 Dashboard Index</title>
+  <title>F1 Dashboard - Combined View</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
       background-color: #121212;
       color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
       padding: 2rem;
-      margin: 0;
     }
     h1 {
       text-align: center;
-      margin-bottom: 2rem;
-      font-size: 2.5rem;
+      color: #00d0ff;
+      margin-bottom: 3rem;
+    }
+    .wrapper-section {
+      margin-bottom: 4rem;
+    }
+    .wrapper-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
       color: #00d0ff;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-      max-width: 600px;
-      margin: auto;
-    }
-    li {
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: 2px solid #333;
+      border-radius: 8px;
       background-color: #1e1e1e;
-      margin: 10px 0;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      transition: background 0.3s;
-    }
-    li:hover {
-      background-color: #2a2a2a;
-    }
-    a {
-      text-decoration: none;
-      color: #00d0ff;
-      font-weight: bold;
-      font-size: 1.2rem;
     }
   </style>
 </head>
 <body>
-  <h1>F1 HTML Wrapper Dashboard</h1>
-  <ul>
-    <li><a href="wrapper_race_results.html">Race Results</a></li>
-    <li><a href="wrapper_qualifying_results.html">Qualifying Results</a></li>
-    <li><a href="wrapper_guesses.html">Player Guesses</a></li>
-    <li><a href="leaderboard_wrapper.html">Leaderboard</a></li>
-  </ul>
+  <h1>F1 Dashboard – All Wrappers</h1>
+
+  <div class="wrapper-section">
+    <div class="wrapper-title">Race Results</div>
+    <iframe src="wrapper_race_results.html"></iframe>
+  </div>
+
+  <div class="wrapper-section">
+    <div class="wrapper-title">Qualifying Results</div>
+    <iframe src="wrapper_qualifying_results.html"></iframe>
+  </div>
+
+  <div class="wrapper-section">
+    <div class="wrapper-title">Player Guesses</div>
+    <iframe src="wrapper_guesses_output.html"></iframe>
+  </div>
+
+  <div class="wrapper-section">
+    <div class="wrapper-title">Leaderboard</div>
+    <iframe src="leaderboard_wrapper.html"></iframe>
+  </div>
+
 </body>
 </html>
