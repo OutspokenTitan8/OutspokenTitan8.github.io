@@ -10,9 +10,9 @@
   },
   {
     "PlayerName": "Rob",
-    "Pick10th": "",
-    "PickDNF": "",
-    "UsedDoublePoints": false,
+    "Pick10th": "RUS",
+    "PickDNF": "GAS",
+    "UsedDoublePoints": true,
     "UsedFU": false,
     "FUTargetPlayer": "",
     "Score": 0.0
