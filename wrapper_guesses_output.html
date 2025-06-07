@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="60">
   <title>Guesses Wrapper</title>
   <style>
     html, body, iframe {
@@ -12,8 +11,16 @@
       border: none;
     }
   </style>
+  <script>
+    // Reload the iframe every 60 seconds to refresh content
+    setInterval(function() {
+      const iframe = document.getElementById('contentFrame');
+      // Add a timestamp to the src to bypass cache and force reload
+      iframe.src = iframe.src.split('?')[0] + '?t=' + new Date().getTime();
+    }, 60000);
+  </script>
 </head>
 <body>
-  <iframe src="guesses_output.html" width="100%" height="100%" frameborder="0"></iframe>
+  <iframe id="contentFrame" src="guesses_output.html" width="100%" height="100%" frameborder="0"></iframe>
 </body>
 </html>
