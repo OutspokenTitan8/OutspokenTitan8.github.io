@@ -1,254 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<title>Spanish Grand Prix – Qualifying Results</title>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Dashboard Index</title>
+  <style>
     body {
-        font-family: Arial, sans-serif;
-        padding: 10px;
-        margin: 0;
-        background: #ffffff;
-        color: #222;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      padding: 2rem;
+      margin: 0;
     }
     h1 {
-        text-align: center;
-        font-size: 1.3em;
-        margin-bottom: 20px;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      color: #00d0ff;
     }
-    .table-container {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        width: 100%;
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: auto;
     }
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        min-width: 500px;
+    li {
+      background-color: #1e1e1e;
+      margin: 10px 0;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      transition: background 0.3s;
     }
-    th, td {
-        border: 1px solid #ccc;
-        padding: 6px 10px;
-        text-align: center;
-        font-size: 0.9em;
-        white-space: nowrap;
+    li:hover {
+      background-color: #2a2a2a;
     }
-    th {
-        background-color: #222;
-        color: white;
-        position: sticky;
-        top: 0;
-        z-index: 1;
+    a {
+      text-decoration: none;
+      color: #00d0ff;
+      font-weight: bold;
+      font-size: 1.2rem;
     }
-    @media (max-width: 480px) {
-        th, td {
-            padding: 5px 6px;
-            font-size: 0.75em;
-        }
-        h1 {
-            font-size: 1em;
-        }
-    }
-</style>
+  </style>
 </head>
 <body>
-    <h1>Spanish Grand Prix – Qualifying Results</h1>
-    <div class="table-container">
-        <table>
-            <thead>
-                <tr>
-                    <th style="border-left: 5px solid #222;">Pos</th>
-                    <th>Driver</th>
-                    <th>Team</th>
-                    <th>Q3</th>
-                    <th>Q2</th>
-                    <th>Q1</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-            <tr style="border-left: 5px solid #FF8700; background-color: #ffffff;">
-                <td>1</td>
-                <td style="color: #FF8700;">Oscar Piastri</td>
-                <td style="color: #FF8700;">McLaren</td>
-                <td>1:11.546</td>
-                <td>1:11.998</td>
-                <td>1:12.551</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #FF8700; background-color: #ffffff;">
-                <td>2</td>
-                <td style="color: #FF8700;">Lando Norris</td>
-                <td style="color: #FF8700;">McLaren</td>
-                <td>1:11.755</td>
-                <td>1:12.056</td>
-                <td>1:12.799</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #1E5BC6; background-color: #ffffff;">
-                <td>3</td>
-                <td style="color: #1E5BC6;">Max Verstappen</td>
-                <td style="color: #1E5BC6;">Red Bull Racing</td>
-                <td>1:11.848</td>
-                <td>1:12.358</td>
-                <td>1:12.798</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #00D2BE; background-color: #ffffff;">
-                <td>4</td>
-                <td style="color: #00D2BE;">George Russell</td>
-                <td style="color: #00D2BE;">Mercedes</td>
-                <td>1:11.848</td>
-                <td>1:12.407</td>
-                <td>1:12.806</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #E8002D; background-color: #ffffff;">
-                <td>5</td>
-                <td style="color: #E8002D;">Lewis Hamilton</td>
-                <td style="color: #E8002D;">Ferrari</td>
-                <td>1:12.045</td>
-                <td>1:12.447</td>
-                <td>1:13.058</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #00D2BE; background-color: #ffffff;">
-                <td>6</td>
-                <td style="color: #00D2BE;">Kimi Antonelli</td>
-                <td style="color: #00D2BE;">Mercedes</td>
-                <td>1:12.111</td>
-                <td>1:12.585</td>
-                <td>1:12.815</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #E8002D; background-color: #ffffff;">
-                <td>7</td>
-                <td style="color: #E8002D;">Charles Leclerc</td>
-                <td style="color: #E8002D;">Ferrari</td>
-                <td>1:12.131</td>
-                <td>1:12.495</td>
-                <td>1:13.014</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
-                <td>8</td>
-                <td style="color: #AAAAAA;">Pierre Gasly</td>
-                <td style="color: #AAAAAA;">Alpine</td>
-                <td>1:12.199</td>
-                <td>1:12.611</td>
-                <td>1:13.081</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #AAAAAA; background-color: #ffffff;">
-                <td>9</td>
-                <td style="color: #AAAAAA;">Isack Hadjar</td>
-                <td style="color: #AAAAAA;">Racing Bulls</td>
-                <td>1:12.252</td>
-                <td>1:12.461</td>
-                <td>1:13.139</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #229971; background-color: #ffffff;">
-                <td>10</td>
-                <td style="color: #229971;">Fernando Alonso</td>
-                <td style="color: #229971;">Aston Martin</td>
-                <td>1:12.284</td>
-                <td>1:12.523</td>
-                <td>1:13.102</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #37BEDD; background-color: #fff5b1;">
-                <td>11</td>
-                <td style="color: #37BEDD;">Alexander Albon</td>
-                <td style="color: #37BEDD;">Williams</td>
-                <td>—</td>
-                <td>1:12.641</td>
-                <td>1:13.044</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #AAAAAA; background-color: #fff5b1;">
-                <td>12</td>
-                <td style="color: #AAAAAA;">Gabriel Bortoleto</td>
-                <td style="color: #AAAAAA;">Kick Sauber</td>
-                <td>—</td>
-                <td>1:12.756</td>
-                <td>1:13.045</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #AAAAAA; background-color: #fff5b1;">
-                <td>13</td>
-                <td style="color: #AAAAAA;">Liam Lawson</td>
-                <td style="color: #AAAAAA;">Racing Bulls</td>
-                <td>—</td>
-                <td>1:12.763</td>
-                <td>1:13.039</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #229971; background-color: #fff5b1;">
-                <td>14</td>
-                <td style="color: #229971;">Lance Stroll</td>
-                <td style="color: #229971;">Aston Martin</td>
-                <td>—</td>
-                <td>1:13.058</td>
-                <td>1:13.038</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #B6BABD; background-color: #fff5b1;">
-                <td>15</td>
-                <td style="color: #B6BABD;">Oliver Bearman</td>
-                <td style="color: #B6BABD;">Haas F1 Team</td>
-                <td>—</td>
-                <td>1:13.315</td>
-                <td>1:13.074</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #AAAAAA; background-color: #ffcccc;">
-                <td>16</td>
-                <td style="color: #AAAAAA;">Nico Hulkenberg</td>
-                <td style="color: #AAAAAA;">Kick Sauber</td>
-                <td>—</td>
-                <td>—</td>
-                <td>1:13.190</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #B6BABD; background-color: #ffcccc;">
-                <td>17</td>
-                <td style="color: #B6BABD;">Esteban Ocon</td>
-                <td style="color: #B6BABD;">Haas F1 Team</td>
-                <td>—</td>
-                <td>—</td>
-                <td>1:13.201</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #37BEDD; background-color: #ffcccc;">
-                <td>18</td>
-                <td style="color: #37BEDD;">Carlos Sainz</td>
-                <td style="color: #37BEDD;">Williams</td>
-                <td>—</td>
-                <td>—</td>
-                <td>1:13.203</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #AAAAAA; background-color: #ffcccc;">
-                <td>19</td>
-                <td style="color: #AAAAAA;">Franco Colapinto</td>
-                <td style="color: #AAAAAA;">Alpine</td>
-                <td>—</td>
-                <td>—</td>
-                <td>1:13.334</td>
-            </tr>
-            
-            <tr style="border-left: 5px solid #1E5BC6; background-color: #ffcccc;">
-                <td>20</td>
-                <td style="color: #1E5BC6;">Yuki Tsunoda</td>
-                <td style="color: #1E5BC6;">Red Bull Racing</td>
-                <td>—</td>
-                <td>—</td>
-                <td>1:13.385</td>
-            </tr>
-            
-            </tbody>
-        </table>
-    </div>
+  <h1>F1 HTML Wrapper Dashboard</h1>
+  <ul>
+    <li><a href="wrapper_race_results.html">Race Results</a></li>
+    <li><a href="wrapper_qualifying_results.html">Qualifying Results</a></li>
+    <li><a href="wrapper_guesses.html">Player Guesses</a></li>
+    <li><a href="leaderboard_wrapper.html">Leaderboard</a></li>
+  </ul>
 </body>
 </html>
