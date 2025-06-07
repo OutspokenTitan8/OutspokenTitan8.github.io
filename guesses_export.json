@@ -1,8 +1,8 @@
 [
   {
     "PlayerName": "Zine",
-    "Pick10th": "HAD",
-    "PickDNF": "HUL",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
@@ -10,9 +10,9 @@
   },
   {
     "PlayerName": "Rob",
-    "Pick10th": "RUS",
-    "PickDNF": "GAS",
-    "UsedDoublePoints": true,
+    "Pick10th": "",
+    "PickDNF": "",
+    "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
     "Score": 0.0
@@ -37,8 +37,8 @@
   },
   {
     "PlayerName": "Mitch",
-    "Pick10th": "ALO",
-    "PickDNF": "LEC",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
