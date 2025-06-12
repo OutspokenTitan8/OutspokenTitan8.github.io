@@ -1,7 +1,7 @@
 [
   {
     "PlayerName": "Rob",
-    "Score": 88,
+    "Score": 88.0,
     "Position": 1
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "PlayerName": "Zine",
-    "Score": 83,
+    "Score": 83.0,
     "Position": 3
   },
   {
