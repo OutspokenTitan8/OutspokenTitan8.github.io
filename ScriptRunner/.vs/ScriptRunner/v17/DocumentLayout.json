@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}|ScriptRunner.vbproj|c:\\users\\wills weaver\\documents\\github\\outspokentitan8.github.io\\scriptrunner\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}|ScriptRunner.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}|ScriptRunner.vbproj|c:\\users\\wills weaver\\documents\\github\\outspokentitan8.github.io\\scriptrunner\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}|ScriptRunner.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}|ScriptRunner.vbproj|c:\\users\\wills weaver\\documents\\github\\outspokentitan8.github.io\\scriptrunner\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}|ScriptRunner.vbproj|solutionrelative:form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\Form1.Designer.vb",
+              "RelativeToolTip": "Form1.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABABAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-03T19:59:12.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-02T20:42:14.77Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-02T20:42:44.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ScriptRunner", "ScriptRunner.vbproj", "{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E9F926-2093-4774-94FC-7BA4E3A4FAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F318C9FF-D276-46BF-BE71-1CC0A58A25F5}
+	EndGlobalSection
+EndGlobal
