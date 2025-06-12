@@ -24,12 +24,12 @@ Partial Class Form1
 
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
         ListBoxScripts = New ListBox()
         ButtonRun = New MaterialButton()
         RichTextBoxOutput = New RichTextBox()
@@ -120,7 +120,7 @@ Partial Class Form1
         ' 
         LabelStatus.AutoSize = True
         LabelStatus.Depth = 0
-        LabelStatus.Font = New Font("Roboto", 14.0F, FontStyle.Regular, GraphicsUnit.Pixel)
+        LabelStatus.Font = New Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel)
         LabelStatus.Location = New Point(334, 119)
         LabelStatus.MouseState = MouseState.HOVER
         LabelStatus.Name = "LabelStatus"
@@ -151,7 +151,6 @@ Partial Class Form1
         ButtonLoadPlayers.AutoSizeMode = AutoSizeMode.GrowAndShrink
         ButtonLoadPlayers.Density = MaterialButton.MaterialButtonDensity.Default
         ButtonLoadPlayers.Depth = 0
-        ButtonLoadPlayers.Enabled = False
         ButtonLoadPlayers.HighEmphasis = True
         ButtonLoadPlayers.Icon = Nothing
         ButtonLoadPlayers.Location = New Point(24, 655)
@@ -223,35 +222,35 @@ Partial Class Form1
         ' DataGridViewGuesses
         ' 
         DataGridViewGuesses.BackgroundColor = Color.FromArgb(CByte(40), CByte(40), CByte(40))
-        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        DataGridViewCellStyle7.Font = New Font("Segoe UI", 9.0F)
-        DataGridViewCellStyle7.ForeColor = Color.White
-        DataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(CByte(90), CByte(90), CByte(90))
-        DataGridViewCellStyle7.SelectionForeColor = Color.White
-        DataGridViewCellStyle7.WrapMode = DataGridViewTriState.True
-        DataGridViewGuesses.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle1.ForeColor = Color.White
+        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(90), CByte(90), CByte(90))
+        DataGridViewCellStyle1.SelectionForeColor = Color.White
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        DataGridViewGuesses.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         DataGridViewGuesses.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
-        DataGridViewCellStyle8.Font = New Font("Segoe UI", 9.0F)
-        DataGridViewCellStyle8.ForeColor = Color.White
-        DataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(CByte(70), CByte(70), CByte(70))
-        DataGridViewCellStyle8.SelectionForeColor = Color.White
-        DataGridViewCellStyle8.WrapMode = DataGridViewTriState.False
-        DataGridViewGuesses.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(70), CByte(70), CByte(70))
+        DataGridViewCellStyle2.SelectionForeColor = Color.White
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.False
+        DataGridViewGuesses.DefaultCellStyle = DataGridViewCellStyle2
         DataGridViewGuesses.EnableHeadersVisualStyles = False
         DataGridViewGuesses.GridColor = Color.DimGray
         DataGridViewGuesses.Location = New Point(24, 700)
         DataGridViewGuesses.Name = "DataGridViewGuesses"
-        DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        DataGridViewCellStyle9.Font = New Font("Segoe UI", 9.0F)
-        DataGridViewCellStyle9.ForeColor = Color.White
-        DataGridViewCellStyle9.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle9.WrapMode = DataGridViewTriState.True
-        DataGridViewGuesses.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle3.ForeColor = Color.White
+        DataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.True
+        DataGridViewGuesses.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         DataGridViewGuesses.Size = New Size(689, 225)
         DataGridViewGuesses.TabIndex = 11
         ' 
@@ -294,35 +293,35 @@ Partial Class Form1
         ' DataGridViewLeaderboard
         ' 
         DataGridViewLeaderboard.BackgroundColor = Color.FromArgb(CByte(40), CByte(40), CByte(40))
-        DataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        DataGridViewCellStyle10.Font = New Font("Segoe UI", 9.0F)
-        DataGridViewCellStyle10.ForeColor = Color.White
-        DataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(CByte(90), CByte(90), CByte(90))
-        DataGridViewCellStyle10.SelectionForeColor = Color.White
-        DataGridViewCellStyle10.WrapMode = DataGridViewTriState.True
-        DataGridViewLeaderboard.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        DataGridViewCellStyle4.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle4.ForeColor = Color.White
+        DataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(CByte(90), CByte(90), CByte(90))
+        DataGridViewCellStyle4.SelectionForeColor = Color.White
+        DataGridViewCellStyle4.WrapMode = DataGridViewTriState.True
+        DataGridViewLeaderboard.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
         DataGridViewLeaderboard.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
-        DataGridViewCellStyle11.Font = New Font("Segoe UI", 9.0F)
-        DataGridViewCellStyle11.ForeColor = Color.White
-        DataGridViewCellStyle11.SelectionBackColor = Color.FromArgb(CByte(70), CByte(70), CByte(70))
-        DataGridViewCellStyle11.SelectionForeColor = Color.White
-        DataGridViewCellStyle11.WrapMode = DataGridViewTriState.False
-        DataGridViewLeaderboard.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(CByte(70), CByte(70), CByte(70))
+        DataGridViewCellStyle5.SelectionForeColor = Color.White
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.False
+        DataGridViewLeaderboard.DefaultCellStyle = DataGridViewCellStyle5
         DataGridViewLeaderboard.EnableHeadersVisualStyles = False
         DataGridViewLeaderboard.GridColor = Color.DimGray
         DataGridViewLeaderboard.Location = New Point(964, 661)
         DataGridViewLeaderboard.Name = "DataGridViewLeaderboard"
-        DataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle12.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
-        DataGridViewCellStyle12.Font = New Font("Segoe UI", 9.0F)
-        DataGridViewCellStyle12.ForeColor = Color.White
-        DataGridViewCellStyle12.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle12.WrapMode = DataGridViewTriState.True
-        DataGridViewLeaderboard.RowHeadersDefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle6.ForeColor = Color.White
+        DataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.True
+        DataGridViewLeaderboard.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
         DataGridViewLeaderboard.Size = New Size(324, 264)
         DataGridViewLeaderboard.TabIndex = 18
         ' 
@@ -375,7 +374,7 @@ Partial Class Form1
         ' 
         TextBoxRaceInfo.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
         TextBoxRaceInfo.BorderStyle = BorderStyle.FixedSingle
-        TextBoxRaceInfo.Font = New Font("Segoe UI", 14.0F)
+        TextBoxRaceInfo.Font = New Font("Segoe UI", 14F)
         TextBoxRaceInfo.ForeColor = Color.White
         TextBoxRaceInfo.Location = New Point(920, 358)
         TextBoxRaceInfo.Name = "TextBoxRaceInfo"
@@ -393,7 +392,7 @@ Partial Class Form1
         WebView2Q.Name = "WebView2Q"
         WebView2Q.Size = New Size(582, 806)
         WebView2Q.TabIndex = 27
-        WebView2Q.ZoomFactor = 1.0R
+        WebView2Q.ZoomFactor = 1R
         ' 
         ' ButtonShowQ
         ' 
@@ -440,7 +439,7 @@ Partial Class Form1
         WebView2R.Name = "WebView2R"
         WebView2R.Size = New Size(582, 806)
         WebView2R.TabIndex = 30
-        WebView2R.ZoomFactor = 1.0R
+        WebView2R.ZoomFactor = 1R
         ' 
         ' btnExportJson
         ' 
@@ -454,7 +453,7 @@ Partial Class Form1
         btnExportJson.MouseState = MouseState.HOVER
         btnExportJson.Name = "btnExportJson"
         btnExportJson.NoAccentTextColor = Color.Empty
-        btnExportJson.Size = New Size(162, 36)
+        btnExportJson.Size = New Size(118, 36)
         btnExportJson.TabIndex = 31
         btnExportJson.Text = "Export json"
         btnExportJson.Type = MaterialButton.MaterialButtonType.Contained
@@ -462,7 +461,7 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(2210, 990)
         Controls.Add(btnExportJson)
