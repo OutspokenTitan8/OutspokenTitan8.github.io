@@ -1,65 +1,65 @@
 [
   {
     "PlayerName": "Zine",
-    "Pick10th": "HUL",
-    "PickDNF": "GAS",
-    "UsedDoublePoints": true,
+    "Pick10th": "",
+    "PickDNF": "",
+    "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
-    "Score": 10.0
+    "Score": 0.0
   },
   {
     "PlayerName": "Rob",
-    "Pick10th": "HAM",
-    "PickDNF": "HUL",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
-    "Score": 6.0
+    "Score": 0.0
   },
   {
     "PlayerName": "Weave",
-    "Pick10th": "HUL",
-    "PickDNF": "HAM",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
-    "UsedFU": true,
-    "FUTargetPlayer": "Toby",
-    "Score": 5.0
+    "UsedFU": false,
+    "FUTargetPlayer": "",
+    "Score": 0.0
   },
   {
     "PlayerName": "Toby",
-    "Pick10th": "HUL",
-    "PickDNF": "RUS",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
-    "Score": 2.5
+    "Score": 0.0
   },
   {
     "PlayerName": "Mitch",
-    "Pick10th": "LEC",
-    "PickDNF": "OCO",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
-    "Score": 3.0
+    "Score": 0.0
   },
   {
     "PlayerName": "Matt",
-    "Pick10th": "BEA",
-    "PickDNF": "RUS",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
-    "Score": 3.0
+    "Score": 0.0
   },
   {
     "PlayerName": "George",
-    "Pick10th": "ALB",
-    "PickDNF": "COL",
+    "Pick10th": "",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
-    "Score": 1.0
+    "Score": 0.0
   }
 ]
