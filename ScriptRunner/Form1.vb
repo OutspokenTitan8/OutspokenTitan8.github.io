@@ -246,7 +246,9 @@ Public Class Form1
             End Try
         Else
             AppendMessage("Race results file not found. Using default driver list.")
-            drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
+            drivers = New List(Of String) From {"ALB", "ALO", "ANT", "BEA", "BOR", "DOO", "GAS", "HAM", "HAD", "HUL", "LAW", "LEC", "NOR", "OCO", "PIA", "RIC", "RUS", "SAI", "STR", "TSU", "VER"}
+
+
         End If
 
         SetupGuessGrid(drivers)
