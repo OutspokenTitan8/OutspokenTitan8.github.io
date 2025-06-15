@@ -246,6 +246,7 @@ Public Class Form1
             End Try
         Else
             AppendMessage("Race results file not found. Using default driver list.")
+            AppendMessage("Race results file not found. Using default driver list.")
             drivers = New List(Of String) From {"ALB", "ALO", "ANT", "BEA", "BOR", "DOO", "GAS", "HAM", "HAD", "HUL", "LAW", "LEC", "NOR", "OCO", "PIA", "RIC", "RUS", "SAI", "STR", "TSU", "VER"}
 
 
