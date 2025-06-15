@@ -246,13 +246,21 @@ Public Class Form1
             End Try
         Else
             AppendMessage("Race results file not found. Using default driver list.")
-            AppendMessage("Race results file not found. Using default driver list.")
             drivers = New List(Of String) From {"ALB", "ALO", "ANT", "BEA", "BOR", "DOO", "GAS", "HAM", "HAD", "HUL", "LAW", "LEC", "NOR", "OCO", "PIA", "RIC", "RUS", "SAI", "STR", "TSU", "VER"}
-
-
         End If
 
         SetupGuessGrid(drivers)
+
+        ' Set the DataSource for the ComboBox column AFTER columns are set up
+        Dim driverColumn = TryCast(DataGridViewGuesses.Columns("DriverColumn"), DataGridViewComboBoxColumn)
+        If driverColumn IsNot Nothing Then
+            driverColumn.DataSource = Nothing ' Reset first to avoid binding issues
+            driverColumn.Items.Clear()
+            For Each d In drivers
+                driverColumn.Items.Add(d)
+            Next
+        End If
+
         LoadGuesses()
     End Sub
 

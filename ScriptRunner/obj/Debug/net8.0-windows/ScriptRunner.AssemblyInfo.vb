@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ScriptRunner"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57c3b893438e1dabfcfd06f593790a28e1212e4"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a29df151b586139739fbcbe3bd25763eb244845"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ScriptRunner"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ScriptRunner"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
