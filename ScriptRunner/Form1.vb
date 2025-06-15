@@ -231,38 +231,23 @@ Public Class Form1
 
 
     ' ----- LOAD RACE DRIVERS & SETUP GRID -----
-    Private Sub LoadRaceDriversAndSetupGuessGrid()
-        Dim drivers As List(Of String)
 
-        If File.Exists(raceDataFile) Then
-            Try
-                Dim json = File.ReadAllText(raceDataFile)
-                Dim rawJson = JsonConvert.DeserializeObject(Of JObject)(json)
-                Dim positionsDict = rawJson("positions").ToObject(Of Dictionary(Of String, Integer))()
-                drivers = positionsDict.Keys.ToList()
-            Catch ex As Exception
-                AppendMessage("Error reading race results: " & ex.Message)
-                drivers = New List(Of String)()
-            End Try
-        Else
-            AppendMessage("Race results file not found. Using default driver list.")
-            drivers = New List(Of String) From {"ALB", "ALO", "ANT", "BEA", "BOR", "DOO", "GAS", "HAM", "HAD", "HUL", "LAW", "LEC", "NOR", "OCO", "PIA", "RIC", "RUS", "SAI", "STR", "TSU", "VER"}
-        End If
+    Private Sub LoadRaceDriversAndSetupGuessGrid()
+        Dim drivers As New List(Of String) From {
+        "ALB", "ALO", "ANT", "BEA", "BOR", "DOO", "GAS", "HAM", "HAD", "HUL",
+        "LAW", "LEC", "NOR", "OCO", "PIA", "RUS", "SAI", "STR", "TSU", "VER"
+    }
+
+        ' Optional: sort alphabetically, if needed
+        drivers.Sort()
+
+        Debug.WriteLine("Drivers: " & String.Join(", ", drivers))
 
         SetupGuessGrid(drivers)
-
-        ' Set the DataSource for the ComboBox column AFTER columns are set up
-        Dim driverColumn = TryCast(DataGridViewGuesses.Columns("DriverColumn"), DataGridViewComboBoxColumn)
-        If driverColumn IsNot Nothing Then
-            driverColumn.DataSource = Nothing ' Reset first to avoid binding issues
-            driverColumn.Items.Clear()
-            For Each d In drivers
-                driverColumn.Items.Add(d)
-            Next
-        End If
-
         LoadGuesses()
     End Sub
+
+
 
     ' ----- SETUP GUESS DATAGRIDVIEW -----
     Private Sub SetupGuessGrid(drivers As List(Of String))
@@ -333,13 +318,11 @@ Public Class Form1
             .AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
             .AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells
             .DefaultCellStyle.WrapMode = DataGridViewTriState.True
-            .AllowUserToAddRows = False
-            .AllowUserToDeleteRows = False
             .DataSource = guessesBindingList
             .AutoResizeRows()
         End With
 
-        DataGridViewGuesses.DataSource = guessesBindingList
+
         DataGridViewGuesses.AllowUserToAddRows = False
         DataGridViewGuesses.AllowUserToDeleteRows = False
 
