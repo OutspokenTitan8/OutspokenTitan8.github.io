@@ -27,7 +27,7 @@ Public Class Form1
         materialSkinManager.ColorScheme = New ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE)
     End Sub
 
-    Private scriptFolder As String = "C:\Users\Wills Weaver\Documents\GitHub\OutspokenTitan8.github.io\scripts"
+    Private scriptFolder As String = "C:\Users\Wills Weaver\Documents\F1QualiWidget\Main_Dashboard\scripts"
     Private runningProcess As Process = Nothing
 
     Private guessesBindingList As BindingList(Of Guess)
@@ -91,7 +91,6 @@ Public Class Form1
         End If
 
         WebView2Q.Visible = False
-        WebView2R.Visible = False
         WebView2R.Visible = False
     End Sub
 
@@ -233,22 +232,9 @@ Public Class Form1
 
     ' ----- LOAD RACE DRIVERS & SETUP GRID -----
     Private Sub LoadRaceDriversAndSetupGuessGrid()
-        Dim drivers As List(Of String) = New List(Of String)()
+        Dim drivers As List(Of String)
 
-        Dim driversFile As String = "C:\Users\Wills Weaver\Documents\GitHub\OutspokenTitan8.github.io\drivers.json"
-        If File.Exists(driversFile) Then
-            Try
-                Dim driversJson = File.ReadAllText(driversFile)
-                drivers = JsonConvert.DeserializeObject(Of List(Of String))(driversJson)
-                If drivers Is Nothing OrElse drivers.Count = 0 Then
-                    AppendMessage("No drivers found in drivers.json. Using default driver list.")
-                    drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
-                End If
-            Catch ex As Exception
-                AppendMessage("Error reading drivers file: " & ex.Message)
-                drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
-            End Try
-        ElseIf File.Exists(raceDataFile) Then
+        If File.Exists(raceDataFile) Then
             Try
                 Dim json = File.ReadAllText(raceDataFile)
                 Dim rawJson = JsonConvert.DeserializeObject(Of JObject)(json)
@@ -256,7 +242,7 @@ Public Class Form1
                 drivers = positionsDict.Keys.ToList()
             Catch ex As Exception
                 AppendMessage("Error reading race results: " & ex.Message)
-                drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
+                drivers = New List(Of String)()
             End Try
         Else
             AppendMessage("Race results file not found. Using default driver list.")
@@ -506,8 +492,15 @@ Public Class Form1
             End If
 
             ' DNF pick score
-            If retirementsList.Contains(guess.PickDNF) Then
-                score += 10
+            Dim dnfIndex As Integer = retirementsList.IndexOf(guess.PickDNF)
+            If dnfIndex >= 0 Then
+                ' Example: 1st DNF gets 15, 2nd gets 10, 3rd gets 5, others get 2
+                Dim dnfPoints() As Integer = {10, 5, 4, 3, 2, 1, 0}
+                If dnfIndex < dnfPoints.Length Then
+                    score += dnfPoints(dnfIndex)
+                Else
+                    score += 2
+                End If
             End If
 
             ' Apply Double Points
@@ -801,6 +794,7 @@ Public Class Form1
         WebView2Q.Visible = False
         WebView2R.Visible = True
     End Sub
+
 End Class
 
 ' ----- DATA CLASSES -----

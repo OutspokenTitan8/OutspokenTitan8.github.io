@@ -208,11 +208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\ScriptRunner.vbproj",
+      "projectUniqueName": "C:\\Users\\Wills Weaver\\Documents\\F1QualiWidget\\Main_Dashboard\\WindowsFormsVersion\\ScriptRunner\\ScriptRunner.vbproj",
       "projectName": "ScriptRunner",
-      "projectPath": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\ScriptRunner.vbproj",
+      "projectPath": "C:\\Users\\Wills Weaver\\Documents\\F1QualiWidget\\Main_Dashboard\\WindowsFormsVersion\\ScriptRunner\\ScriptRunner.vbproj",
       "packagesPath": "C:\\Users\\Wills Weaver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wills Weaver\\Documents\\GitHub\\OutspokenTitan8.github.io\\ScriptRunner\\obj\\",
+      "outputPath": "C:\\Users\\Wills Weaver\\Documents\\F1QualiWidget\\Main_Dashboard\\WindowsFormsVersion\\ScriptRunner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wills Weaver\\AppData\\Roaming\\NuGet\\NuGet.Config",

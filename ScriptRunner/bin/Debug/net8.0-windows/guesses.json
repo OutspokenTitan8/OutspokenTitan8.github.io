@@ -2,7 +2,7 @@
   {
     "PlayerName": "Zine",
     "Pick10th": "TSU",
-    "PickDNF": "BEA",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
@@ -20,7 +20,7 @@
   {
     "PlayerName": "Weave",
     "Pick10th": "HUL",
-    "PickDNF": "HAD",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
@@ -29,7 +29,7 @@
   {
     "PlayerName": "Toby",
     "Pick10th": "ALB",
-    "PickDNF": "OCO",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
@@ -38,7 +38,7 @@
   {
     "PlayerName": "Mitch",
     "Pick10th": "LEC",
-    "PickDNF": "ALO",
+    "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
@@ -47,14 +47,14 @@
   {
     "PlayerName": "Matt",
     "Pick10th": "HAD",
-    "PickDNF": "STR",
+    "PickDNF": "SAI",
     "UsedDoublePoints": false,
     "UsedFU": false,
     "FUTargetPlayer": "",
     "Score": 0.0
   },
   {
-    "PlayerName": "*George",
+    "PlayerName": "George",
     "Pick10th": "",
     "PickDNF": "",
     "UsedDoublePoints": false,
