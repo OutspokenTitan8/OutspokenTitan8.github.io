@@ -92,6 +92,7 @@ Public Class Form1
 
         WebView2Q.Visible = False
         WebView2R.Visible = False
+        WebView2R.Visible = False
     End Sub
 
 
@@ -232,9 +233,22 @@ Public Class Form1
 
     ' ----- LOAD RACE DRIVERS & SETUP GRID -----
     Private Sub LoadRaceDriversAndSetupGuessGrid()
-        Dim drivers As List(Of String)
+        Dim drivers As List(Of String) = New List(Of String)()
 
-        If File.Exists(raceDataFile) Then
+        Dim driversFile As String = "C:\Users\Wills Weaver\Documents\GitHub\OutspokenTitan8.github.io\drivers.json"
+        If File.Exists(driversFile) Then
+            Try
+                Dim driversJson = File.ReadAllText(driversFile)
+                drivers = JsonConvert.DeserializeObject(Of List(Of String))(driversJson)
+                If drivers Is Nothing OrElse drivers.Count = 0 Then
+                    AppendMessage("No drivers found in drivers.json. Using default driver list.")
+                    drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
+                End If
+            Catch ex As Exception
+                AppendMessage("Error reading drivers file: " & ex.Message)
+                drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
+            End Try
+        ElseIf File.Exists(raceDataFile) Then
             Try
                 Dim json = File.ReadAllText(raceDataFile)
                 Dim rawJson = JsonConvert.DeserializeObject(Of JObject)(json)
@@ -242,7 +256,7 @@ Public Class Form1
                 drivers = positionsDict.Keys.ToList()
             Catch ex As Exception
                 AppendMessage("Error reading race results: " & ex.Message)
-                drivers = New List(Of String)()
+                drivers = New List(Of String) From {"HAM", "VER", "LEC", "RUS", "SAI", "NOR", "PIA", "ALO", "GAS", "OCO"}
             End Try
         Else
             AppendMessage("Race results file not found. Using default driver list.")
