@@ -54,12 +54,12 @@
     "Score": 0.0
   },
   {
-    "PlayerName": "George",
+    "PlayerName": "*George",
     "Pick10th": "",
     "PickDNF": "",
     "UsedDoublePoints": false,
     "UsedFU": false,
-    "FUTargetPlayer": "",
+    "FUTargetPlayer": null,
     "Score": 0.0
   }
 ]
