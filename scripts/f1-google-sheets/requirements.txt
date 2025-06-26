@@ -1,5 +1,0 @@
-fastf1
-gspread
-oauth2client
-pandas
-gspread_dataframe
