@@ -1,17 +1,17 @@
 [
   {
     "PlayerName": "Rob",
-    "Score": 109.0,
+    "Score": 115.0,
     "Position": 1
+  },
+  {
+    "PlayerName": "Zine",
+    "Score": 103.0,
+    "Position": 2
   },
   {
     "PlayerName": "Mitch",
     "Score": 100.5,
-    "Position": 2
-  },
-  {
-    "PlayerName": "Zine",
-    "Score": 98.0,
     "Position": 3
   },
   {
@@ -20,19 +20,18 @@
     "Position": 4
   },
   {
-    "PlayerName": "Weave",
-    "Score": 66.0,
+    "PlayerName": "Matt",
+    "Score": 76.0,
     "Position": 5
   },
   {
-    "PlayerName": "Matt",
-    "Score": 63.0,
+    "PlayerName": "Weave",
+    "Score": 75.0,
     "Position": 6
   },
   {
     "PlayerName": "*George",
-    "Score": 19.0,
+    "Score": 29.0,
     "Position": 7
   }
-
 ]
